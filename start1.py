@@ -7,3 +7,4 @@ def insertionSort(my_List):
             my_List[i+1]=my_List[i]
             i=i-1
         my_List[i+1]=key
+    print my_List
