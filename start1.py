@@ -32,8 +32,8 @@ def selection_sort(my_List):
     for i in range(len(my_List)):
         key = my_List[i]
         print key
+        smallest = [key, i]
         for j in range(i, len(my_List)):
-            smallest = [key, i]
             if my_List[j] < smallest[0]:
                 smallest=[my_List[j], j]
         print smallest
